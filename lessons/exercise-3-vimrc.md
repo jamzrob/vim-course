@@ -1,6 +1,6 @@
 ---
 path: "/exercise-3-vimrc"
-title: "some javascript"
+title: "exercise-3-vimrc"
 order: "72A"
 section: "Misc Content"
 description: "Try setting some custom configs"
