@@ -1,18 +1,18 @@
 module.exports = {
   siteMetadata: {
-    title: "VIM Course",
-    subtitle: "Beginner Introduction to VIM",
+    title: "VIM Lecture",
+    subtitle: "Learn VIM in 1 hour",
     author: "James Raubenheimer",
     authorSubtitle: "Etsy",
     authorImage: "author.jpg", // this image should go in /static
     courseImage: "courseImage.png", // this also should go in /static
     twitter: "https://twitter.com/jamzrob", // make empty string to omit socials
-    linkedin: "https://linkedin.com/in/btholt",
+    linkedin: "https://www.linkedin.com/in/james-raubenheimer-83a96174/",
     github: "https://github.com/jamzrob",
     description:
       "This is the description that will show up when people share as well as on search engines",
     keywords: [
-      "this is",
+      "Learn VIM",
       "a list of keywords and phrase",
       "that search engines",
       "will index your page for",
