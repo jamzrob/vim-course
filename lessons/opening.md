@@ -37,4 +37,46 @@ enter.  (Ensure you have no vim rc)
 * What are you thoughts?
 * What are things you expected to see?
 
+## Lets try editing a file
+```bash
+> vim test.js
+```
+
+You are now in `NORMAL` mode.  This probably doesn't feel all that normal.
+And you are right, its really not that normal.
+
+## Lets talk Modes
+There are a few modes that you should be aware of.
+
+* Normal
+* Insert
+* Visual 
+* Visual Line
+
+## My First If Statement
+Lets write our first if statement.
+
+Currently, you are in `NORMAL` mode.  This is where you can execute commands
+to navigate, edit, and execute vim/sys commands.  To get out of this mode,
+press `i`
+
+After pressing `i` you should see something like `-- INSERT --` in the bottom
+left hand side of vim.
+
+Now that you are in insert mode, type the following
+
+```js
+if (true) {
+
+}
+```
+
+Press `<esc>` or `<Ctrl-c>` (abbreviated `<C-c>`) to leave `INSERT` mode and back
+to `NORMAL`.
+
+Goodness, isn't default vim ugly?
+
+type `:q` to quit vim.
+
+
 

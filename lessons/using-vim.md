@@ -6,57 +6,18 @@ description: "Let's use vim for the first time!"
 section: "Basics"
 ---
 
-Before we start editing files, lets get familiar with some basic movements.
-
-Navigate back to the empty directory and type in the following.
-
-```bash
-> vim test.js
-```
-
-You are now in `NORMAL` mode.  This probably doesn't feel all that normal.
-And you are right, its really not that normal.
-
-## Lets talk Modes
-There are a few modes that you should be aware of.
-
-* Normal
-* Insert
-* Visual 
-* Visual Line
-
-## My First If Statement
-Lets write our first if statement.
-
-Currently, you are in `NORMAL` mode.  This is where you can execute commands
-to navigate, edit, and execute vim/sys commands.  To get out of this mode,
-press `i`
-
-After pressing `i` you should see something like `-- INSERT --` in the bottom
-left hand side of vim.
-
-Now that you are in insert mode, type the following
-
-```js
-if (true) {
-
-}
-```
-
-Press `<esc>` or `<Ctrl-c>` (abbreviated `<C-c>`) to leave `INSERT` mode and back
-to `NORMAL`.
-
-Goodness, isn't default vim ugly?
-
-type `:q` to quit vim.  Also, don't tell anyone.
-
 ## My First Moves
+
+### Exercises
+We will be using curl to grab a few exercises throughout this class.  Here is
+an example.
+
 ### Basic navigation
 
-time to curl down our first little exercise
+Time to curl down our first little exercise
 
 ```bash
-curl https://raw.githubusercontent.com/ThePrimeagen/vim-fundamentals/master/course-website/lessons/exercise-0-hjkl-x.md > exercise.md && vim exercise.md
+curl https://raw.githubusercontent.com/jamzrob/vim-course/main/lessons/exercise-0-hjkl.md > exercise.md && vim exercise.md
 ```
 
 ### Deleting, Yanking, and Pasting
@@ -65,14 +26,14 @@ where you will see some significant speed ups compared to a conventional editor.
 
 
 ```bash
-curl https://raw.githubusercontent.com/ThePrimeagen/vim-fundamentals/master/course-website/lessons/exercise-1-dyp.md > exercise.md && vim exercise.md
+curl https://raw.githubusercontent.com/jamzrob/vim-course/main/lessons/exercise-1-dyp.md > exercise.md && vim exercise.md
 ```
 
 ### Insert!
 We are going to go over entering into insert mode
 
 ```bash
-curl https://raw.githubusercontent.com/ThePrimeagen/vim-fundamentals/master/course-website/lessons/exercise-2-insert.md > exercise.md && vim exercise.md
+curl https://raw.githubusercontent.com/jamzrob/vim-course/main/lessons/exercise-2-insert.md > exercise.md && vim exercise.md
 ```
 
 ## Recap
@@ -89,7 +50,7 @@ does it seem exciting?  I hope you are excited.
 * Most of the ways to go into insert mode!
   * i and a for which side of the cursor
   * I and A for which side of the line
-  * o and O for belowe / above line
+  * o and O for below / above line
 * zz - I snuck that one in...
 
 That is a grand total of 16 different motions
