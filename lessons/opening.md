@@ -3,7 +3,7 @@ path: "/opening"
 title: "Opening VIM"
 order: "2A"
 description: "Opening VIM"
-section: "Basic"
+section: "Basics"
 icon: "book"
 ---
 
@@ -23,7 +23,7 @@ an example.
 Notice that i name the downloaded file then `&& vim name`
 
 ```bash
-curl https://raw.githubusercontent.com/jamzrob/vim-course/lessons/exercise-0-hjkl.md > exercise.md && vim exercise.md
+curl https://raw.githubusercontent.com/jamzrob/vim-course/main/lessons/exercise-0-hjkl.md > exercise.md && vim exercise.md
 ```
 
 ## Lets open vim!
