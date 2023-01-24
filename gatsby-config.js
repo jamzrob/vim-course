@@ -1,14 +1,14 @@
 module.exports = {
   siteMetadata: {
-    title: "Gatsby Starter Course",
-    subtitle: "For making great content",
-    author: "Your Name Here",
-    authorSubtitle: "Company Here",
+    title: "VIM Course",
+    subtitle: "Beginner Introduction to VIM",
+    author: "James Raubenheimer",
+    authorSubtitle: "Etsy",
     authorImage: "author.jpg", // this image should go in /static
     courseImage: "courseImage.png", // this also should go in /static
-    twitter: "https://twitter.com/holtbt", // make empty string to omit socials
+    twitter: "https://twitter.com/jamzrob", // make empty string to omit socials
     linkedin: "https://linkedin.com/in/btholt",
-    github: "https://github.com/btholt",
+    github: "https://github.com/jamzrob",
     description:
       "This is the description that will show up when people share as well as on search engines",
     keywords: [
@@ -19,7 +19,7 @@ module.exports = {
     ],
   },
   pathPrefix: "",
-  // pathPrefix: "/my-repo-name", // if you're using GitHub Pages, put the name of the repo here with a leading slash
+  pathPrefix: "/vim-course", // if you're using GitHub Pages, put the name of the repo here with a leading slash
   plugins: [
     {
       resolve: "gatsby-plugin-react-svg",
